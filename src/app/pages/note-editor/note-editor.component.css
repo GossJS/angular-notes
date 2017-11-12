@@ -1,0 +1,30 @@
+form * {
+  display: block;
+  width: 100%;
+  margin: 12px 0;
+}
+
+form input, form textarea {
+  padding: 6px 10px;
+  font-size: 16px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  border: 1px solid #bebebe;
+  border-radius: 4px;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+form .controls {
+  margin-top: 28px;
+}
+
+form .controls * {
+  display: inline-block;
+  width: auto;
+  margin: 0;
+}

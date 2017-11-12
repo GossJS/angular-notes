@@ -1,0 +1,10 @@
+<div class="display-note wrapper-box">
+  <h1 class="title">{{displayNote.title}}</h1>
+  <div class="categories">{{displayNote.categories}}</div>
+  <div class="content">{{displayNote.content}}</div>
+
+  <div class="controls">
+    <a [routerLink]="['']" class="btn btn-primary">All Posts</a>
+    <a (click)="delete()" class="btn btn-danger">Delete</a>
+  </div>
+</div>

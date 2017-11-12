@@ -1,0 +1,23 @@
+.display-note {
+
+}
+
+.title {
+  margin: 8px 0 6px 0;
+}
+
+.categories {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.content {
+  font-size: 16px;
+}
+
+.controls {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,45 @@
+.header {
+  margin: 12px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.header h1,
+.header .new-post {
+  display: inline-block;
+}
+
+.header h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.notes {
+  clear: both;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.notes li {
+  padding: 10px 12px;
+  border: 1px solid #bebebe;
+  border-top: none;
+}
+.notes li a {
+  color: #2196F3;
+  text-decoration: none;
+  font-size: 18px;
+}
+.notes li a:hover {
+  text-decoration: underline;
+}
+
+.notes li:first-child {
+  border-top: 1px solid #bebebe;
+  border-radius: 8px 8px 0 0;
+}
+.notes li:last-child {
+  border-radius: 0 0 8px 8px;
+}

@@ -1,0 +1,16 @@
+<div class="wrapper-box">
+  <div class="header">
+    <h1>Posts</h1>
+    <a class="btn btn-primary new-post" [routerLink]="['new']">New Post</a>
+  </div>
+
+  <ul class="notes">
+    <li *ngFor="let displayNote of displayNotes" class="displayNote">
+      <a [routerLink]="['/view/' + displayNote.note.id]">{{displayNote.title}}</a>
+    </li>
+  </ul>
+</div>
+
+
+
+

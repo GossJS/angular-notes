@@ -1,0 +1,10 @@
+<form class="wrapper-box" [formGroup]="form" (ngSubmit)="submit()">
+  <input type="text" formControlName="title" placeholder="Enter a title...">
+  <textarea formControlName="content" placeholder="Enter a content..."></textarea>
+  <input type="text" formControlName="categories" placeholder="Enter categories...">
+
+  <div class="controls">
+    <input class="btn btn-primary" type="submit" value="Save">
+    <a [routerLink]="['']" class="btn btn-danger">Cancel</a>
+  </div>
+</form>
